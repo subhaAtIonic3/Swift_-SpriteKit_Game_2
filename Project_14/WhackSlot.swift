@@ -40,6 +40,10 @@ class WhackSlot: SKNode {
         charNode.yScale = 1
         
         charNode.run(SKAction.moveBy(x: 0, y: 80, duration: 0.05))
+        if let showEffect = SKEmitterNode(fileNamed: "ShowEffect") {
+            showEffect.position = charNode.position
+            charNode.addChild(showEffect)
+        }
         isVisible = true
         isHit = false
         
@@ -72,5 +76,10 @@ class WhackSlot: SKNode {
             self.isVisible = false
         }
         charNode.run(SKAction.sequence([delay, hide, notVisible]))
+        
+        if let hitEffect = SKEmitterNode(fileNamed: "HitEffect") {
+            hitEffect.position = charNode.position
+            charNode.addChild(hitEffect)
+        }
     }
 }

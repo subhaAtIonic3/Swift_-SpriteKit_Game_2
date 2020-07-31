@@ -23,6 +23,10 @@
 		223619DC24D2A74A004AD2EE /* whackHole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223619D424D2A74A004AD2EE /* whackHole@2x.png */; };
 		223619DD24D2A74A004AD2EE /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223619D524D2A74A004AD2EE /* whackMask@2x.png */; };
 		223619DF24D2B040004AD2EE /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223619DE24D2B040004AD2EE /* WhackSlot.swift */; };
+		2265900B24D4A31F007684B8 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2265900A24D4A31F007684B8 /* G.wav */; };
+		2265900E24D4A99A007684B8 /* HitEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2265900C24D4A99A007684B8 /* HitEffect.sks */; };
+		2265900F24D4A99A007684B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2265900D24D4A99A007684B8 /* Assets.xcassets */; };
+		2265901324D4AB90007684B8 /* ShowEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2265901224D4AB90007684B8 /* ShowEffect.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		223619D424D2A74A004AD2EE /* whackHole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackHole@2x.png"; sourceTree = "<group>"; };
 		223619D524D2A74A004AD2EE /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
 		223619DE24D2B040004AD2EE /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		2265900A24D4A31F007684B8 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		2265900C24D4A99A007684B8 /* HitEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HitEffect.sks; sourceTree = "<group>"; };
+		2265900D24D4A99A007684B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2265901224D4AB90007684B8 /* ShowEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShowEffect.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				223619D324D2A74A004AD2EE /* whackBad.caf */,
 				223619D424D2A74A004AD2EE /* whackHole@2x.png */,
 				223619D524D2A74A004AD2EE /* whackMask@2x.png */,
+				2265900A24D4A31F007684B8 /* G.wav */,
+				2265900C24D4A99A007684B8 /* HitEffect.sks */,
+				2265900D24D4A99A007684B8 /* Assets.xcassets */,
+				2265901224D4AB90007684B8 /* ShowEffect.sks */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -165,16 +177,20 @@
 			files = (
 				223619D824D2A74A004AD2EE /* penguinGood@2x.png in Resources */,
 				223619CC24D2A602004AD2EE /* GameScene.sks in Resources */,
+				2265900E24D4A99A007684B8 /* HitEffect.sks in Resources */,
 				223619DA24D2A74A004AD2EE /* whackBackground@2x.png in Resources */,
+				2265900F24D4A99A007684B8 /* Assets.xcassets in Resources */,
 				223619BF24D2A572004AD2EE /* Main.storyboard in Resources */,
 				223619C124D2A573004AD2EE /* Assets.xcassets in Resources */,
 				223619DB24D2A74A004AD2EE /* whackBad.caf in Resources */,
 				223619D724D2A74A004AD2EE /* penguinEvil@2x.png in Resources */,
 				223619DD24D2A74A004AD2EE /* whackMask@2x.png in Resources */,
 				223619DC24D2A74A004AD2EE /* whackHole@2x.png in Resources */,
+				2265901324D4AB90007684B8 /* ShowEffect.sks in Resources */,
 				223619C424D2A573004AD2EE /* LaunchScreen.storyboard in Resources */,
 				223619D624D2A74A004AD2EE /* gameOver@2x.png in Resources */,
 				223619D924D2A74A004AD2EE /* whack.caf in Resources */,
+				2265900B24D4A31F007684B8 /* G.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
